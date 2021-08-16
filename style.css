@@ -1,0 +1,47 @@
+body{
+    background: black;
+    color: #fff;
+}
+
+.title{
+    margin-top: 7vh;
+}
+
+.add-todo{
+    width: 100%;
+}
+
+.form-todo > .col-md-8,
+.form-todo > .col-md-4{
+    padding:0;
+}
+
+.form-todo > .col-md-4{
+    padding-left: 15px;
+}
+
+.form-todo > .col-md-4 > button{
+    width: 100%;
+}
+
+.todo-content{
+    padding: 0;
+    border-radius: 5px;
+    background-color: #084298;
+    font-weight: 500;
+    font-size: large;
+    padding-left: 15px;
+    height: 2.5em;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.btn-delete{
+    height: 100%;
+    width: 10%;
+    font-size: 1.2em;
+    padding-right: 8%;
+    background-color: #dc3545;
+    color: #adb5bd;
+    border-radius: 0 5px 5px 0;
+}

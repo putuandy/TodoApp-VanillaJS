@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Simple To Do App Using only Vanilla JS</title>
+        <!--Bootstrap css and custom style css-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="App" class="container">
+            <div class="col-md-12">
+                <div class="title text-center">
+                    <h2>To Do App - Vanilla JS</h2>
+                    <p>This is simple ToDo App using only Vanilla JS<br/> to use it please add text and click submit</p>
+                </div>
+                <div class="form-todo row col-md-4 offset-md-4 mb-3">
+                    <div class="col-md-8">
+                        <input type="text" class="form-control" id="todoText" placeholder="Add ToDo to the list">
+                    </div>
+                    <div class="col-md-4">
+                        <button type="submit" class="btn btn-primary" id="addBtn">Add</button>
+                    </div>
+                </div>
+                <div class="todo-list col-md-4 offset-md-4">
+                    
+                </div>
+            </div>
+        </div>
+        <!--Bootstrap Bundle js and App Related js-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
